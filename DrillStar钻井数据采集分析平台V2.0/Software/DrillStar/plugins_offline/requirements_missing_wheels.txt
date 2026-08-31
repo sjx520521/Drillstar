@@ -1,0 +1,6 @@
+# Packages required by source code but not currently present as offline wheels.
+# Put matching Python 3.10 / Windows x64 wheels into this directory before using
+# a fully offline install that includes these features.
+
+torch
+vtk

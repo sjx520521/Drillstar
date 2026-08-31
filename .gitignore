@@ -1,0 +1,39 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build / package outputs
+build/
+dist/
+release/
+*.zip
+*.exe
+*.dll
+*.log
+*.tmp
+*.out
+
+# Tool caches and temp folders
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp_*/
+
+# Large local data and runtime bundles
+测试数据/
+runtime_bundle_py310/
+
+# Optional local artifacts
+*.spec~
