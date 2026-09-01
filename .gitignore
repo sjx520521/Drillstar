@@ -1,0 +1,46 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build and packaging outputs
+build/
+dist/
+release/
+*.zip
+*.exe
+*.dll
+*.log
+*.tmp
+*.out
+
+# Tool caches and temp folders
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp_*/
+
+# Local data and runtime bundles
+测试数据/
+runtime_bundle_py310/
+
+# Optional local artifacts
+*.spec~
+github_known_hosts
+
+# Release folders are published as GitHub Release assets, not normal Git files
+DrillstarV1.0/Release/
+DrillstarV2.0/Release/
+DrillstarV1.0-Release.zip
+DrillstarV2.0-Release.zip
